@@ -8,7 +8,7 @@ Submitted: Sept. 18, 2024
 
 # Version History
 V1.0 (09-17-24) - Initial Release  
-V1.1 (09-18-24) -  Finalization: Added Comments in the Notebook and Added Documentation in the Readme File 
+V1.1 (09-18-24) -  Finalization: Added Comments in the Notebook and Added Documentation in the Readme File  
 V2.0 (09-19-24) - Edited the uploaded files in github  
 V3.0 (09-19-24) - Submission of Github Link
 
