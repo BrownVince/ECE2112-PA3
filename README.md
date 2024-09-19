@@ -13,7 +13,7 @@ V2.0 (09-19-24) - Edited the uploaded files in github
 V3.0 (09-19-24) - Submission of Github Link
 
 # Software(s) Used
-<img src="https://github.com/user-attachments/assets/32ea11b3-b4e5-4efa-a673-ce2b102ab4b5" alt="Jupyter Logo" width="80"/> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="100"/>
+<img src="https://github.com/user-attachments/assets/32ea11b3-b4e5-4efa-a673-ce2b102ab4b5" alt="Jupyter Logo" width="80"/> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github" width="100"/> <img src="https://https://github.com/user-attachments/assets/fbb1aebf-5d92-4405-b135-64fcbf49fbac" alt="Notepad" width="80"/>
 
 # PROBLEM 1
 ### In problem #1, we are tasked to load the cars.csv file then print the first and last 5 rows
