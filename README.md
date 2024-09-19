@@ -25,8 +25,21 @@ cars = pd.read_csv('cars.csv')
 cars.head()
 cars.tail()
 ```
+* When saving the problem 1 as a .py file, I used the write function to write the specific codes into the Supsup_Pandas-P1.py file as a whole string
+```
+prob1 = """
+import pandas as pd #Call the pandas Library and import as pd for convention
+cars = pd.read_csv('cars.csv') #Load the file cars.csv and save it to variable 'cars'
+cars.head() #Load the first 5 Rows
+cars.tail() #Load the last 5 rows
+"""
+
+p1 = open('SUPSUP_Pandas-P1.py', 'w')
+p1.write(prob1)
+p1.close()
+```
 And when I thought I wouldn't encounter any problems, here comes problem #2 where I encountered many minor issues  
-**OUTCOME:**
+
 
 # PROBLEM 2
 ### In this problem, we are tasked to extract the following information using subsetting, slicing and indexing operations using the dataframe cars in problem 1
@@ -56,6 +69,19 @@ cars.loc[(cars['Model']=='Mazda RX4 Wag') or (cars['Model']=='Ford Pantera L') o
 cars.loc[(cars['Model']=='Mazda RX4 Wag')|(cars['Model']=='Ford Pantera L')|(cars['Model']=='Honda Civic'), ['Model', 'cyl', 'gear']]
 #This syntax is all goods :)
 ```
-**OUTCOME:**
-
+* When saving the problem 2 again as a .py file, I used the write function to write the specific codes into the Supsup_Pandas-P2.py file as a whole string
+```
+prob2 = """
+import pandas as pd
+cars.iloc[:5, ::2] #using .iloc[rows, columns] function, set the ending index for rows as 5 to select the first 5 rows(index 0-4)
+                    #as for the columns set the increment to 2 in order to select every 2nd column starting from column 1
+cars.loc[(cars['Model']=='Mazda RX4')] #using the .loc[] function, find the row that has Mazda RX4 as the car model then print the entire row
+cars.loc[(cars['Model']=='Camaro Z28'), ['Model', 'cyl']] #using again the .loc[] function, find the Camaro Z28 car model then print only cyl
+cars.loc[(cars['Model']=='Mazda RX4 Wag')|(cars['Model']=='Ford Pantera L')|(cars['Model']=='Honda Civic'), ['Model', 'cyl', 'gear']]
+#using the .loc[] function, find the given 3 car models separated by the '|' (element-wise OR) function then print only columns Model, cyl, and gear
+"""
+p2 = open('SUPSUP_Pandas-P2.py', 'w')
+p2.write(prob2)
+p2.close()
+```
 
